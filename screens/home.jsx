@@ -10,7 +10,7 @@ const Home = ({navigation}) => {
       <Title />
       <View style={styles.bannerContainer}>
         <Image
-          source={require('../images/ban.png')}
+          source={require('../images/banss.png')}
           style={styles.banner}
           resizeMode="contain"
         />
@@ -18,7 +18,7 @@ const Home = ({navigation}) => {
       <TouchableOpacity
         onPress={() => navigation.navigate('Quiz')}
         style={styles.button}>
-        <Text>Start</Text>
+        <Text style={styles.buttonText}>Start</Text>
       </TouchableOpacity>
     </View>
   );
@@ -34,15 +34,24 @@ const styles = StyleSheet.create({
   bannerContainer: {
     justifyContent: 'center',
     alignItems: 'center',
+    flex: 1,
   },
   container: {
     paddingTop: 40,
     paddingHorizontal: 20,
+    height: '100%',
+    backgroundColor: 'white',
   },
   button: {
     width: '100%',
-    backgroundColor: '#0d1b2a',
+    backgroundColor: '#1b263b',
     padding: 20,
     borderRadius: 16,
+    alignItems: 'center',
+    marginBottom: 30,
+  },
+  buttonText: {
+    color: 'white',
+    fontSize: 20,
   },
 });
