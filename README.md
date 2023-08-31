@@ -8,6 +8,6 @@ feel free to clone, pull or contribute.
 remeber to give a star.
 
 Author: Jayson
-Email: jaysontechandsolutions@gmail.com
+Email: jaysonceojaytech@gmail.com
 
 ![alt text](https://github.com/Jayson7/Quizillers/blob/master/images/Screenshot%20from%202023-08-31%2010-20-10.png?raw=true)
