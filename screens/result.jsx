@@ -1,7 +1,7 @@
 import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import React from 'react';
 
-const Result = navigation => {
+const Result = ({navigation}) => {
   return (
     <View>
       <View>
@@ -33,5 +33,11 @@ const styles = StyleSheet.create({
   bannerContainer: {
     justifyContent: 'center',
     alignItems: 'center',
+  },
+  container: {
+    paddingTop: 40,
+    paddingHorizontal: 20,
+    height: '100%',
+    backgroundColor: 'white',
   },
 });
