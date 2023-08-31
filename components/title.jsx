@@ -1,14 +1,25 @@
-import {Text, View} from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 
 const Title = () => {
   return (
-    <View>
-      <Text>Quiziller</Text>
+    <View style={styles.container}>
+      <Text style={styles.title}>Quiz Monster</Text>
     </View>
   );
 };
 
 export default Title;
 
-// const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  title: {
+    fontSize: 36,
+
+    fontWeight: '600',
+  },
+  container: {
+    paddingVertical: 16,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});
